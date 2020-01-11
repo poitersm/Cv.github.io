@@ -1,6 +1,8 @@
 .o-container{
     width: 100%;
     padding: flex;
+    display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -13,7 +15,7 @@
     color: #000000;
     text-transform: uppercase;
     Font-family: ralaway;
-    font-size: 18px;
+    font-size: 24px;
     border-color: transparent;
 }
 
@@ -25,9 +27,12 @@
 
 
 body{
-
-font-family: ralaway;
-font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: ralaway;
+    font-size: 12px;
 }
 
 .b-btn{
@@ -38,7 +43,9 @@ text-transform: uppercase;
 padding: 8px;
 margin: 16px;
 min-width: 150px;
-display: inline-block;
+display: flex;
+align-items: center;
+Justify-content: center;
 text-align: center;
 transition: 0,25s all ease-in-out;
 
@@ -49,4 +56,11 @@ transition: 0,25s all ease-in-out;
     background-color: #333333;
     text-decoration: none;
 
+}
+image{
+    width: 100%;
+}
+
+.b-gallery_item{
+    overflow
 }
