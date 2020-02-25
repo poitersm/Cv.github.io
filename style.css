@@ -1,12 +1,12 @@
 .o-container{
     width: 100%;
-    padding: flex;
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image:url();
 }
 
 .b-title{
@@ -14,9 +14,10 @@
     text-align: center;
     color: #000000;
     text-transform: uppercase;
-    Font-family: ralaway;
-    font-size: 24px;
+    font-family: monoton;
+    font-size: 36px;
     border-color: transparent;
+    letter-spacing: 3px;
 }
 
 .b-description{
@@ -25,13 +26,14 @@
     
 }
 
+.b-nav{
+    text-align: center;
+}
+
 
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: ralaway;
+    
+    font-family: relaway;
     font-size: 12px;
 }
 
@@ -42,12 +44,10 @@ color:#333333;
 text-transform: uppercase;
 padding: 8px;
 margin: 16px;
-min-width: 150px;
-display: flex;
-align-items: center;
-Justify-content: center;
+width: 200px;
+display: inline-block;
 text-align: center;
-transition: 0,25s all ease-in-out;
+transition: 0.25s all ease-in-out;
 
 }
 
